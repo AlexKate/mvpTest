@@ -29,6 +29,6 @@ public class InternetPresenter implements IDuckPresenter {
         String[] split1 = split[0].split("<title>",2);
         String okData = split1[1];
 
-        mView.showData(okData);
+        mView.showData(okData+"-来自网络");
     }
 }
